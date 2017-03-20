@@ -24382,3 +24382,7 @@ ion-navbar.toolbar {
     padding-top: calc(16px + 20px);
   }
 }
+
+page-competences .scroll-content {
+  height: 100%;
+}

@@ -1,18 +1,35 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Curriculum Vitae</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Hello World Ionic!!</h2>
-  <p>
-    Ceci est le début d'une application CV..!
-  </p>
+<ion-content>
 
-  <button (click)="takePicture()">Prendre une photo</button>
+  <ion-card>
+    <!--<ion-card-header text-wrap>
+        <h2> <!--<ion-icon name="list-box"></ion-icon>
+          LP SIL DAM - 2016/2017</h2>
+    </ion-card-header>-->
 
-  Dernière photo :
-  <img [src]="base64Image" *ngIf="base64Image" />
+    <ion-card-content>
+        <p> <b>LP SIL DAM - 2016 / 2017 </b></p>
+        <p>Université Nice Sophia Antipolis</p>
+   </ion-card-content>
+</ion-card>
+
+<ion-card>
+  <ion-card-content>
+      <p> <b>BTS SIO - 2014 / 2016 </b></p>
+      <p>Dijon Formation</p>
+ </ion-card-content>
+</ion-card>
+
+<ion-card>
+  <ion-card-content>
+      <p> <b>Baccalauréat - 2009 / 2011 </b></p>
+      <p>Lycée Stephen Liegard</p>
+ </ion-card-content>
+</ion-card>
 
 </ion-content>
