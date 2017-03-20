@@ -7,11 +7,28 @@
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-left></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+    <ion-list>
+
+      <ion-item>
+        <ion-label stacked>Nom et Prénom</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label stacked>Email</ion-label>
+        <ion-input type="email"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label stacked>Numéro de téléphone</ion-label>
+        <ion-input type="tel"></ion-input>
+      </ion-item>
+
+    </ion-list>
+
+    <!-- Float the icon left -->
+    <button ion-button icon-left>
+      <ion-icon name="send"></ion-icon>
+      Me contacter
+    </button>
 </ion-content>
