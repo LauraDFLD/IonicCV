@@ -6,7 +6,7 @@ import {Camera} from 'ionic-native';
   selector: 'page-profil',
   templateUrl: 'profil.html'
 })
-export class HomePage {
+export class ProfilPage {
 
   public base64Image: string;
 

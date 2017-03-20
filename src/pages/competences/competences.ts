@@ -6,7 +6,7 @@ import {Camera} from 'ionic-native';
   selector: 'page-competences',
   templateUrl: 'competences.html'
 })
-export class HomePage {
+export class CompetencesPage {
 
   public base64Image: string;
 

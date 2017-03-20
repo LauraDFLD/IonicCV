@@ -6,7 +6,7 @@ import {Camera} from 'ionic-native';
   selector: 'page-formations',
   templateUrl: 'formations.html'
 })
-export class HomePage {
+export class FormationsPage {
 
   public base64Image: string;
 
