@@ -1,18 +1,34 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Curriculum Vitae</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Hello World Ionic!!</h2>
-  <p>
-    Ceci est le début d'une application CV..!
-  </p>
+<ion-content>
 
-  <button (click)="takePicture()">Prendre une photo</button>
+  <ion-card>
+    <ion-card-header text-wrap>
+        <h3> <!--<ion-icon name="list-box"></ion-icon>-->
+          <b>Développeuse Mobile - 2016 / 2017</b></h3>
+    </ion-card-header>
+    <ion-card-content>
+        <p> <b>Métropole Nice Cote d'Azur </b></p>
+        <p>Développement d'une application hybride avec Ionic.</p>
+        <p>Développement d'une native Android.</p>
+   </ion-card-content>
+</ion-card>
 
-  Dernière photo :
-  <img [src]="base64Image" *ngIf="base64Image" />
+<ion-card>
+  <ion-card-header text-wrap>
+      <h3> <!--<ion-icon name="list-box"></ion-icon>-->
+        <b>Technicienne Informatique - 2014 / 2016</b></h3>
+  </ion-card-header>
+  <ion-card-content>
+      <p> <b>SNCF </b></p>
+      <p>Développement d'une application web avec Symfony.</p>
+      <p>Assistance utilisateurs et ticketing.</p>
+      <p>Gestion du parc informatique.</p>
+ </ion-card-content>
+</ion-card>
 
 </ion-content>

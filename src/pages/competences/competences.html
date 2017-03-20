@@ -1,18 +1,42 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Curriculum Vitae</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Hello World Ionic!!</h2>
-  <p>
-    Ceci est le début d'une application CV..!
-  </p>
 
-  <button (click)="takePicture()">Prendre une photo</button>
+  <ion-list-header>
+    <h2>Web </h2>
+  </ion-list-header>
+  <ion-item>
+    <ion-icon name="code" item-left></ion-icon> html, css, javascript, ajax
+  </ion-item>
+  <ion-item>
+    <ion-icon name="code" item-left></ion-icon> symfony, twig, doctrine
+  </ion-item>
+  <ion-item>
+    <ion-icon name="code" item-left></ion-icon> sql
+  </ion-item><br/>
 
-  Dernière photo :
-  <img [src]="base64Image" *ngIf="base64Image" />
+  <ion-list-header>
+    <h2>Mobile Natif </h2>
+  </ion-list-header>
+  <ion-item>
+    <ion-icon name="code" item-left></ion-icon> Android (Java)
+  </ion-item>
+  <ion-item>
+    <ion-icon name="code" item-left></ion-icon> iOS (Swift)
+  </ion-item> <br/>
+
+  <ion-list-header>
+    <h2>Mobile Hybride </h2>
+  </ion-list-header>
+  <ion-item>
+    <ion-icon name="code" item-left></ion-icon> Ionic
+  </ion-item>
+  <ion-item>
+    <ion-icon name="code" item-left></ion-icon> Progessive Web App
+  </ion-item>
 
 </ion-content>
