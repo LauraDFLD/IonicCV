@@ -4776,6 +4776,10 @@ textarea::-webkit-input-placeholder {
   padding-left: 2px;
 }
 
+textarea::-moz-placeholder {
+  padding-left: 2px;
+}
+
 textarea:-ms-input-placeholder {
   padding-left: 2px;
 }
@@ -24385,4 +24389,19 @@ ion-navbar.toolbar {
 
 page-competences .scroll-content {
   height: 100%;
+}
+
+page-contact .center {
+  text-align: center;
+}
+
+page-profil .imgProfil {
+  max-width: 70%;
+  border-radius: 10%;
+  margin: auto;
+  display: block;
+}
+
+page-profil .textCenter {
+  text-align: center;
 }
