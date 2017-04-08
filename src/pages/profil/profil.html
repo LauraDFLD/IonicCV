@@ -6,7 +6,10 @@
 
 <ion-content padding>
 
-  <img class= "imgProfil" src="../../assets/kitten1.jpg" alt="">
+  <img class= "imgProfil" src="../../assets/kitten1.jpg" alt="" *ngIf="!base64Image">
+  <img [src]="base64Image" *ngIf="base64Image" />
+
+  <div class="textCenter"> <button ion-button (click)="takePicture()">Changer photo</button> </div>
 
   <h2 class="textCenter">Laura Daufeld</h2>
   <p class="textCenter"> 23/05/1992

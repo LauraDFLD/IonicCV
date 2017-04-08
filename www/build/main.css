@@ -24395,6 +24395,11 @@ page-contact .center {
   text-align: center;
 }
 
+page-contact .boutonContact {
+  color: white;
+  text-decoration: none;
+}
+
 page-profil .imgProfil {
   max-width: 70%;
   border-radius: 10%;

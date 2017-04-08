@@ -38,10 +38,10 @@
         }
     },
     "dependent_plugins": {
-        "cordova-plugin-compat": {
+        "com.googlemaps.ios": {
             "PACKAGE_NAME": "com.ionicframework.myapp776907"
         },
-        "com.googlemaps.ios": {
+        "cordova-plugin-compat": {
             "PACKAGE_NAME": "com.ionicframework.myapp776907"
         }
     }
