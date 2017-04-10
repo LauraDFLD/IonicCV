@@ -10,6 +10,11 @@ import { ExperiencesPage } from '../pages/experiences/experiences';
 import { ProfilPage } from '../pages/profil/profil';
 import { CompetencesPage } from '../pages/competences/competences';
 import { FormationsPage } from '../pages/formations/formations';
+import { Http } from '@angular/http';
+import { 
+  TranslateModule, 
+  TranslateStaticLoader, 
+  TranslateLoader } from 'ng2-translate/ng2-translate';
 
 
 @NgModule({
@@ -25,8 +30,13 @@ import { FormationsPage } from '../pages/formations/formations';
     ExperiencesPage
   ],
   imports: [
-    IonicModule.forRoot(MyApp)
-  ],
+  IonicModule.forRoot(MyApp),
+  TranslateModule.forRoot({
+    provide: TranslateLoader,
+    useFactory: (createTranslateLoader),
+    deps: [Http]
+  })
+],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
@@ -42,3 +52,6 @@ import { FormationsPage } from '../pages/formations/formations';
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
 export class AppModule {}
+export function createTranslateLoader(http: Http) {
+  return new TranslateStaticLoader(http, 'assets/i18n', '.json');
+}
