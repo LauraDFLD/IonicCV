@@ -9,5 +9,5 @@ import {Camera} from 'ionic-native';
 export class CompetencesPage {
 
   constructor(public navCtrl: NavController) {}
-
+  
 }

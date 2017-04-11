@@ -7,6 +7,7 @@ import { CompetencesPage } from '../competences/competences';
 import { ExperiencesPage } from '../experiences/experiences';
 import { FormationsPage } from '../formations/formations';
 import { ProfilPage } from '../profil/profil';
+import {TranslatePipe} from "ng2-translate/ng2-translate";
 
 
 

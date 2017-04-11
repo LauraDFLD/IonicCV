@@ -14,7 +14,7 @@ import { Http } from '@angular/http';
 import { 
   TranslateModule, 
   TranslateStaticLoader, 
-  TranslateLoader } from 'ng2-translate/ng2-translate';
+  TranslateLoader, TranslatePipe } from 'ng2-translate/ng2-translate';
 
 
 @NgModule({

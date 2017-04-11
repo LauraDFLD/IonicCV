@@ -18,6 +18,9 @@
         "cordova-plugin-device": {
             "PACKAGE_NAME": "com.ionicframework.myapp776907"
         },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.ionicframework.myapp776907"
+        },
         "cordova-plugin-googlemaps": {
             "API_KEY_FOR_IOS": "AIzaSyBbmjPogXRnRls4yDWxmlZjgek_-6K6GI8",
             "NSLOCATIONWHENINUSEUSAGEDESCRIPTION": "Show your location on the map",
@@ -34,9 +37,6 @@
             "PACKAGE_NAME": "com.ionicframework.myapp776907"
         },
         "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "com.ionicframework.myapp776907"
-        },
-        "cordova-plugin-globalization": {
             "PACKAGE_NAME": "com.ionicframework.myapp776907"
         }
     },

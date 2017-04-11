@@ -10,7 +10,7 @@
     <ion-list>
 
       <ion-item>
-        <ion-label stacked>Nom et Prénom</ion-label>
+        <ion-label stacked>{{ "NAME" | translate }}</ion-label>
         <ion-input type="text"></ion-input>
       </ion-item>
 
@@ -20,7 +20,7 @@
       </ion-item>
 
       <ion-item>
-        <ion-label stacked>Numéro de téléphone</ion-label>
+        <ion-label stacked>{{ 'PHONE' | translate }}</ion-label>
         <ion-input type="tel"></ion-input>
       </ion-item>
 
@@ -31,7 +31,7 @@
       <div class="col center">
         <button ion-button icon-left center>
           <ion-icon name="send"></ion-icon>
-          <a class="boutonContact" href="mailto:laura.daufeld@gmail.com?Subject=Hello%20again" target="_top">Me contacter</a>
+          <a class="boutonContact" href="mailto:laura.daufeld@gmail.com?Subject=Hello%20again">Me contacter</a>
         </button>
       </div>
     </div>
