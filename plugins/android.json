@@ -16,6 +16,13 @@
         "cordova-plugin-device": {
             "PACKAGE_NAME": "com.ionicframework.myapp776907"
         },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.ionicframework.myapp776907"
+        },
+        "cordova-plugin-googlemaps": {
+            "API_KEY_FOR_ANDROID": "AIzaSyBdsblt0Hs1YUCnbAkrnjxpiuaDrprWlQs",
+            "PACKAGE_NAME": "com.ionicframework.myapp776907"
+        },
         "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.ionicframework.myapp776907"
         },
@@ -27,12 +34,12 @@
         },
         "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "com.ionicframework.myapp776907"
-        },
-        "cordova-plugin-globalization": {
-            "PACKAGE_NAME": "com.ionicframework.myapp776907"
         }
     },
     "dependent_plugins": {
+        "com.googlemaps.ios": {
+            "PACKAGE_NAME": "com.ionicframework.myapp776907"
+        },
         "cordova-plugin-compat": {
             "PACKAGE_NAME": "com.ionicframework.myapp776907"
         }

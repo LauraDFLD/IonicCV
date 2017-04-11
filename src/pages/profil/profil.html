@@ -6,7 +6,7 @@
 
 <ion-content padding>
 
-  <img class= "imgProfil" src="www/assets/kitten1.jpg" alt="" *ngIf="!base64Image">
+  <img class= "imgProfil" src="../../assets/kitten1.jpg" alt="" *ngIf="!base64Image">
   <img [src]="base64Image" *ngIf="base64Image" />
 
   <div class="textCenter"> <button ion-button (click)="takePicture()">{{ 'CHANGEPICTURE' | translate }}</button> </div>
