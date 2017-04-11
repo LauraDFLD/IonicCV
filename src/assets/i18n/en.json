@@ -1,11 +1,15 @@
 {
-  "HELLO": "Hello",
-  "AGE": "Age",
-  "ADDRESS": "Address",
-  "COUNTRY": "Country",
-  "CITY": "City",
-  "INFO": "This is the data we collected about you",
-  "BTN_ENGLISH": "Translate to English",
-  "BTN_SPANISH": "Translate to Spanish",
-  "TITLE": "Your information"
+  "PROFILE": "Profile",
+  "NAME": "Name and surname",
+  "PHONE": "Phone number",
+  "CONTACTME": "Contact me",
+  "TABPROFIL": "Profile",
+  "TABFORMATION": "Educational backgrounds",
+  "TABEXPERIENCES": "Experiences",
+  "TABCOMPETENCES": "Skills",
+  "TABCONTACT": "Contact",
+  "MOBILENATIF": "Native mobile",
+  "MOBILEHYBRIDE": "Hybrid mobile",
+  "CHANGEPICTURE": "Change picture"
+  
 }

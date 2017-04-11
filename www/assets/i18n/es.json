@@ -1,11 +1,14 @@
 {
-  "PROFILE": "Profil",
-  "NAME": "Nom et prénom",
-  "PHONE": "Numéro de téléphone",
-  "CONTACTME": "Contactez-moi",
-  "TABPROFIL": "Profil",
-  "TABFORMATION": "Formations",
-  "TABEXPERIENCES": "Expériences",
-  "TABCOMPETENCES": "Skills",
-  "TABCONTACT": "Contact"
+  "PROFILE": "Perfil",
+  "NAME": "Nombre y apellido",
+  "PHONE": "Numero de teléfono",
+  "CONTACTME": "Contáctame",
+  "TABPROFIL": "Perfil",
+  "TABFORMATION": "Formaciones",
+  "TABEXPERIENCES": "Experiencias",
+  "TABCOMPETENCES": "Competencias",
+  "TABCONTACT": "Contacto",
+  "MOBILENATIF": "Móvil nativo",
+  "MOBILEHYBRIDE": "Móvil híbrido",
+  "CHANGEPICTURE": "Cambiar foto"
 }

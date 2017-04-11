@@ -14,7 +14,7 @@ export class ProfilPage {
 
   takePicture(){
     Camera.getPicture({
-        destinationType: Camera.DestinationType.DATA_URL,
+        destinationType: Camera.DestinationType.FILE_URI,
         targetWidth: 1000,
         targetHeight: 1000
     }).then((imageData) => {
