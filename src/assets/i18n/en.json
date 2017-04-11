@@ -11,7 +11,8 @@
   "MOBILENATIF": "Native mobile",
   "MOBILEHYBRIDE": "Hybrid mobile",
   "CHANGEPICTURE": "Change picture",
-  "EXPDEV": "Mobile Developer",
-  "EXPTECH": "Mobile Developer"
+  "EXPDEV": "IT Developer",
+  "EXPTECH": "IT Technician",
+  "MSG": "Hello, you have been contacted through IonicCV by: "
   
 }
