@@ -11,17 +11,18 @@
 
       <ion-item>
         <ion-label stacked>{{ "NAME" | translate }}</ion-label>
-        <ion-input type="text"></ion-input>
+        
+        <ion-input  [(ngModel)]="name" type="text" name="name"></ion-input>
       </ion-item>
 
       <ion-item>
         <ion-label stacked>Email</ion-label>
-        <ion-input type="email"></ion-input>
+        <ion-input [(ngModel)]="email" type="email" name="email"></ion-input>
       </ion-item>
 
       <ion-item>
         <ion-label stacked>{{ 'PHONE' | translate }}</ion-label>
-        <ion-input type="tel"></ion-input>
+        <ion-input [(ngModel)]="tel" type="tel" name="tel"></ion-input>
       </ion-item>
 
     </ion-list>
@@ -29,9 +30,9 @@
     <!-- Float the icon left -->
     <div class="row">
       <div class="col center">
-        <button ion-button icon-left center>
+        <button (click)="showName()" ion-button icon-left center>
           <ion-icon name="send"></ion-icon>
-          <a class="boutonContact" href="mailto:laura.daufeld@gmail.com?Subject=Contact%20Laura%20DAUFLED">{{ 'CONTACTME' | translate }}</a>
+          <a class="boutonContact" href="mailto:laura.daufeld@gmail.com?Subject=Contact%20depuis%20IonicCV%20pour%20Laura%20DAUFLED&body={{ 'MSG' | translate }}%0D%0A{{name}}%0D%0AEmail:%20{{email}}%0D%0A{{ 'PHONE' | translate }}:%20{{tel}}">{{ 'CONTACTME' | translate }}</a>
         </button>
       </div>
     </div>
