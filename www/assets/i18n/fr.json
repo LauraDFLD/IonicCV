@@ -10,7 +10,8 @@
   "TABCONTACT": "Contact",
   "MOBILENATIF": "Mobile natif",
   "MOBILEHYBRIDE": "Mobile hybride",
-  "CHANGEPICTURE": "Changer photo",
+  "CHANGEPICTURE": "Prendre une photo",
+  "SELECTPICTURE": "Selectionner une image",
   "EXPDEV": "Développeuse Mobile",
   "EXPTECH": "Technicienne Informatique",
   "MSG": "Bonjour, vous avez été contactée depuis l'application IonicCV par: "

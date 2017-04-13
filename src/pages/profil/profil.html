@@ -6,10 +6,14 @@
 
 <ion-content padding>
 
-  <img class= "imgProfil" src="../assets/kitten1.jpg" alt="" *ngIf="!base64Image">
+  <!--<img class= "imgProfil" src="../assets/kitten1.jpg" alt="" *ngIf="!base64Image">-->
   <img [src]="base64Image" *ngIf="base64Image" />
+  <img [src]="cameraUrl" *ngIf="photoSelected">
 
-  <div class="textCenter"> <button ion-button (click)="takePicture()">{{ 'CHANGEPICTURE' | translate }}</button> </div>
+  <div class="textCenter"> 
+      <button ion-button (click)="takePicture()">{{ 'CHANGEPICTURE' | translate }}</button> 
+      <button ion-button (click)="selectFromGallery()">{{ 'SELECTPICTURE' | translate }}</button>
+  </div>
 
   <h2 class="textCenter">Laura Daufeld</h2>
   <p class="textCenter"> 23/05/1992
